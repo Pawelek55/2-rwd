@@ -1,17 +1,15 @@
 body{
     font-family: Verdana;
     margin: 0;
-
-}
-
-#background{
-    background: url('../img/man-1.jpg');
+    font-size: 9px;
+    background-image: url('../img/man-1.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
-    position: relative;
     height: 100vh;
-    
+    position: relative;
+
 }
 
 h1{
@@ -21,9 +19,10 @@ h1{
     text-transform: uppercase;
     top: 40%;
     left: 3%;
-    font-size: 32px;
+    font-size: 2.8em;
+    display: inline-block;
 }
 
 span{
-    font-size: 48px;
+    font-size: 1.5em;
 }
