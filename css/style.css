@@ -1,0 +1,29 @@
+body{
+    font-family: Verdana;
+    margin: 0;
+
+}
+
+#background{
+    background: url('../img/man-1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    
+}
+
+h1{
+    position: absolute;
+    color: #fff;
+    z-index: 1;
+    text-transform: uppercase;
+    top: 40%;
+    left: 3%;
+    font-size: 32px;
+}
+
+span{
+    font-size: 48px;
+}

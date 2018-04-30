@@ -1,0 +1,45 @@
+
+
+@media all and (max-width:1170px){
+
+    #background{
+        height: 70vh;
+        background: url('man-2.jpg');
+        background-size: cover;
+        background-position: center down;
+        background-repeat: no-repeat;
+    }
+    
+    
+    h1{
+        font-size: 20px;
+        left: 60%;
+    }
+    
+    span{
+        font-size: 35px;
+    }
+}
+
+@media all and (max-width:992px){
+        #background{
+        height: 50vh;
+        background: url('man-1.jpg');
+        background-size: contain;
+        background-position: center;
+    }
+    h1{
+        left: 35%;
+        top: 52%;
+        font-size: 9px;
+        color: #000;
+    }
+    
+    span{
+        font-size: 10px;
+        top: 50px;
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+    }
+}
